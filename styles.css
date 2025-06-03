@@ -1,5 +1,6 @@
 body{
-    font-family: Helvetica, sans-serif;
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 600;
 }
 
 h4{
@@ -46,8 +47,8 @@ p.outfit-title{
 p.outfit-author{
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+    font-weight: 400;
+    font-style: italic;
     margin: 0%;
 
 }
