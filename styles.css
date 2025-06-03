@@ -1,0 +1,64 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+h4{
+    font-weight: bold;
+}
+
+#map{
+    height: 97vh;
+    margin: 0%;
+}
+
+.popupCustom .leaflet-popup-content-wrapper, .popupCustom .leaflet-popup-tip{
+	background: white(243, 243, 243);
+	color: #2e490c;
+	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.185);
+}
+
+.leaflet-popup-content{
+	margin: 20px 4px 20px 13px;
+	line-height: 1.3;
+	font-size: 13px;
+	font-size: 1.08333em;
+	min-height: 1px;
+    padding: 0 4px 4px 4px;
+    overflow: auto;
+}
+
+img.popup{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+p.outfit-title{
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+p.outfit-author{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0%;
+
+}
+
+p.outfit-text{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    white-space: pre;
+    text-wrap: wrap;
+}

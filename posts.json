@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "title": "CANÇÃO DO EXÍLIO",
+            "author": "Gonçalvez Dias",
+            "content": "Minha terra tem palmeiras,\nOnde canta o Sabiá;\nAs aves, que aqui gorjeiam,\nNão gorjeiam como lá.\nNosso céu tem mais estrelas,\nNossas várzeas têm mais flores,\nNossos bosques têm mais vida,\nNossa vida mais amores.\nEm cismar – sozinho – à noite –\nMais prazer encontro eu lá;\nMinha terra tem palmeiras;\nOnde canta o Sabiá.\nMinha terra tem primores,\nQue tais não encontro eu cá;\nEm cismar – sozinho – à noite –\nMais prazer encontro eu lá;\nMinha terra tem palmeiras,\nOnde canta o Sabiá.\nNão permita Deus que eu morra,\nSem que eu volte para lá;\nSem que eu desfrute os primores\nQue não encontro por cá;\nSem qu'inda aviste as palmeiras,\nOnde canta o Sabiá.",
+            "image": "",
+            "coordinates": [-21.98341, -47.88419],
+            "id": 2
+        },
+        {
+            "title": "CACHORRO",
+            "author": "Anônimo",
+            "content": "",
+            "image": "img/raca-de-cachorro-muito-popular-no-brasil-1.jpg",
+            "coordinates": [-21.97341, -47.89419],
+            "id": 1
+        },
+        {
+            "title": "CACHORRO",
+            "author": "Anônimo",
+            "content": "Oz (オズ) is a quiet wizard from Northern Country, however he was summoned as a wizard from Central Country. He is known as the strongest wizard in the world and is feared by wizards and humans alike. Centuries ago, he conquered half the world with tyranny then gave up midway for personal reasons, but by then he had a reputation of being a cruel and heartless monster. He dislikes it when others interfere with his work, and rarely appears in public. He fostered Arthur in his castle for nine years.",
+            "image": "img/raca-de-cachorro-muito-popular-no-brasil-1.jpg",
+            "coordinates": [-21.97400, -47.87800],
+            "id": 1
+        }
+    ]
+}
