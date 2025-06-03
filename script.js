@@ -34,7 +34,7 @@ var layers = {
 
 // make popup from json
 async function getPostsJson(){
-    let res = await fetch("./posts.json")
+    let res = await fetch("https://biofuturo-na-cidade.github.io/cartografia-biodiversa/posts.json")
     let json = await res.json()
     return json
 }
