@@ -1,28 +1,161 @@
 {
     "data":[
         {
-            "title": "CANÇÃO DO EXÍLIO",
-            "author": "Gonçalvez Dias",
-            "content": "Minha terra tem palmeiras,\nOnde canta o Sabiá;\nAs aves, que aqui gorjeiam,\nNão gorjeiam como lá.\nNosso céu tem mais estrelas,\nNossas várzeas têm mais flores,\nNossos bosques têm mais vida,\nNossa vida mais amores.\nEm cismar – sozinho – à noite –\nMais prazer encontro eu lá;\nMinha terra tem palmeiras;\nOnde canta o Sabiá.\nMinha terra tem primores,\nQue tais não encontro eu cá;\nEm cismar – sozinho – à noite –\nMais prazer encontro eu lá;\nMinha terra tem palmeiras,\nOnde canta o Sabiá.\nNão permita Deus que eu morra,\nSem que eu volte para lá;\nSem que eu desfrute os primores\nQue não encontro por cá;\nSem qu'inda aviste as palmeiras,\nOnde canta o Sabiá.",
-            "image": "",
-            "coordinates": [-21.98341, -47.88419],
+            "title": "",
+            "author": "Anônimo",
+            "content": "",
+            "image": "img/drawings/img (1).jpg",
+            "coordinates": [-21.996608166461954, -47.92736292630917],
             "id": 2
         },
         {
-            "title": "CACHORRO",
-            "author": "Anônimo",
-            "content": "",
-            "image": "img/raca-de-cachorro-muito-popular-no-brasil-1.jpg",
-            "coordinates": [-21.97341, -47.89419],
+            "title": "",
+            "author": "Guilherme Buosi Neto",
+            "content": "Pensando no caminho que fazemos diariamente, assim que saio de casa vejo o ipê na frente da minha kitnet: um ipê rosa, que, na primavera, derruba suas flores, enchendo a rua  e as casas com sua presença. Ao mesmo tempo, ele rompe a configuração da cidade: quebra a calçada com suas raízes, rejeitando a disposição urbana do solo. Na parte de baixo, o kartódromo, área que mesmo arborizada, por um (longo) período de tempo conviveu com um odor horrível do rio pela presença de esgoto não tratado em suas águas. Esse trajeto cotidiano se encerra na área norte da UFSCar, marcado pelo uso da linha UFSCAR-USE, com uma presença de natureza quase que inerte, representada nas suas gramíneas ao redor dos ATs.",
+            "image": "img/drawings/img (2).jpg",
+            "coordinates": [-21.99915680859753, -47.89880340844653],
             "id": 1
         },
         {
-            "title": "CACHORRO",
+            "title": "Trajeto Jacobucci - IFSP",
             "author": "Anônimo",
-            "content": "Oz (オズ) is a quiet wizard from Northern Country, however he was summoned as a wizard from Central Country. He is known as the strongest wizard in the world and is feared by wizards and humans alike. Centuries ago, he conquered half the world with tyranny then gave up midway for personal reasons, but by then he had a reputation of being a cruel and heartless monster. He dislikes it when others interfere with his work, and rarely appears in public. He fostered Arthur in his castle for nine years.",
-            "image": "img/raca-de-cachorro-muito-popular-no-brasil-1.jpg",
-            "coordinates": [-21.97400, -47.87800],
+            "content": "Trajeto do trabalho de bike, saindo da Vila Jacobucci, até o IFSP, passando por dentro da UFSCar e pelo cerrado, com acesso pela Área Norte.",
+            "image": "img/drawings/img (3).jpg",
+            "coordinates": [-22.006147666039062, -47.87141289019421],
             "id": 1
+        },
+        {
+            "title": "Marginal",
+            "author": "Kusa D. War",
+            "content": "Bambuzais e Urucuns da Av. Francisco Pereira Lopes, que vejo todos os dias. A luz passa por eles assim, pela metade, na metade do meu trajeto, na metade das conversas que tenho. São um convite para refletir sobre o que há em nossos arredores e o que mais deveria haver.",
+            "image": "img/drawings/img (4).jpg",
+            "coordinates": [-22.012944888510283, -47.90736301769136]
+        },
+        {
+            "title": "",
+            "author": "Anônimo",
+            "content": "",
+            "image": "img/drawings/img (5).jpg",
+            "coordinates": [-21.999330229619893, -47.89110457133236]
+        },
+        {
+            "title": "Amor por qualquer mato em meu caminho",
+            "author": "Antonio",
+            "content": "",
+            "image": "img/drawings/img (10).jpg",
+            "coordinates": [-22.002321439271224, -47.88841436970519]
+        },
+        {
+            "title": "",
+            "author": "Anônimo",
+            "content": "",
+            "image": "img/drawings/img (13).jpg",
+            "coordinates": [-22.01195807556535, -47.895431403439495]
+        },
+        {
+            "title": "",
+            "author": "Lucca",
+            "content": "",
+            "image": "img/drawings/img (15).jpg",
+            "coordinates": [-22.00051771535096, -47.900167187532624]
+        },
+        {
+            "title": "",
+            "author": "Anônimo",
+            "content": "",
+            "image": "img/drawings/img (16).jpg",
+            "coordinates": [-21.998496341362955, -47.891389118351164]
+        },
+        {
+            "title": "",
+            "author": "Anônimo",
+            "content": "",
+            "image": "img/drawings/img (17).jpg",
+            "coordinates": [-21.98164797578949, -47.90061489770683]
+        },
+        {
+            "title": "",
+            "author": "Valeria Leticia",
+            "content": "leucenas acolá \ncheiro de efluente\npragas urbanas",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
+        },
+        {
+            "title": "",
+            "author": "Valeria Leticia",
+            "content": "diversidade\nvês, bela, colorida\nmais que pokémon",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
+        },
+        {
+            "title": "",
+            "author": "Valeria Leticia",
+            "content": "não jogue lixo\nou os microplasticos \nirão te matar",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
+        },
+        {
+            "title": "",
+            "author": "Valeria Leticia",
+            "content": "Jaracatiá\nDoce sabor, desfrute\nMamão do mato",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
+        },
+        {
+            "title": "",
+            "author": "Guilherme Buosi Neto",
+            "content": "",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
+        },
+                {
+            "title": "",
+            "author": "Guilherme Buosi Neto",
+            "content": "",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
+        },
+                {
+            "title": "",
+            "author": "Guilherme Buosi Neto",
+            "content": "",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
+        },
+                {
+            "title": "",
+            "author": "Guilherme Buosi Neto",
+            "content": "",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
+        },
+                {
+            "title": "",
+            "author": "Guilherme Buosi Neto",
+            "content": "",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
+        },
+                {
+            "title": "",
+            "author": "Guilherme Buosi Neto",
+            "content": "",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
+        },
+                {
+            "title": "",
+            "author": "Guilherme Buosi Neto",
+            "content": "",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
+        },
+        {
+            "title": "",
+            "author": "Anônimo",
+            "content": "",
+            "image": "",
+            "coordinates": [-21.98980312044434, -47.90461351379601]
         }
     ]
 }
