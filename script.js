@@ -1,5 +1,5 @@
 
-var map = L.map('map').setView([-22.01, -47.89], 13);
+var map = L.map('map').setView([-22.01, -47.89], 14);
 map.on('popupopen', ChangeMargin)
 
 //
@@ -12,15 +12,14 @@ CartoDB_Voyager.addTo(map);
 
 //marker icon
 var myIcon = L.icon({
-    iconUrl: 'img/locationonicon.png',
+    iconUrl: './rsrc/markericon.png',
     iconSize: [30,30],
     iconAnchor: [15,26],
     popupAnchor: [0,-30]
 });
 
 //set max height (scrollbar margin fix)
-const MAX_HEIGHT = 1
-00
+const MAX_HEIGHT = 300
 
 //create layers
 var markers = L.markerClusterGroup.layerSupport();
@@ -55,6 +54,7 @@ function MarkerMaker(content, coordinates, markers, id){
       'maxHeight': MAX_HEIGHT,
       'minWidth': 300,
       'maxWidth': 400,
+      'closeButton': false,
       'className' : 'popupCustom'
   }
   var marker = L.marker(coordinates, {icon: myIcon});
@@ -85,7 +85,7 @@ function ChangeMargin() {
     var height = popup.clientHeight
 
     if (height < MAX_HEIGHT) { 
-        popup.style.margin = "20px 13px 9px 13px"
+        popup.style.margin = "13px 13px 9px 13px"
     }
 
 }
