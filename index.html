@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""/>
@@ -16,12 +17,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="light" style="--primary: rgb(79,119,48);
+<body class="light" style="--primary: #14442c;
+--primary-border: #14442c;
 --surface-tint: rgb(76 102 43);
 --on-primary: rgb(255 255 255);
 --primary-container: rgb(205 237 163);
 --on-primary-container: rgb(53 78 22);
---secondary: rgb(88 98 73);
+--secondary: #14442c;
 --on-secondary: rgb(255 255 255);
 --secondary-container: rgb(220 231 200);
 --on-secondary-container: rgb(64 74 51);
@@ -34,7 +36,7 @@
 --error-container: rgb(255 218 214);
 --on-error-container: rgb(147 0 10);
 --background: rgb(249 250 239);
---on-background: rgb(26 28 22);
+--on-background: #14442c;
 --surface: rgb(249 250 239);
 --on-surface: rgb(26 28 22);
 --surface-variant: rgb(225 228 213);
@@ -42,20 +44,20 @@
 --outline: rgb(117 121 108);
 --outline-variant: rgb(197 200 186);
 --shadow: rgb(0 0 0);
---scrim: rgb(0 0 0);
+--scrim: #14442c;
 --inverse-surface: rgb(47 49 42);
 --inverse-on-surface: rgb(241 242 230);
 --inverse-primary: rgb(177 209 138);
 --primary-fixed: rgb(205 237 163);
---on-primary-fixed: rgb(16 32 0);
+--on-primary-fixed: #14442c;
 --primary-fixed-dim: rgb(177 209 138);
 --on-primary-fixed-variant: rgb(53 78 22);
 --secondary-fixed: rgb(220 231 200);
---on-secondary-fixed: rgb(21 30 11);
+--on-secondary-fixed: #14442c;
 --secondary-fixed-dim: rgb(191 203 173);
 --on-secondary-fixed-variant: rgb(64 74 51);
 --tertiary-fixed: rgb(188 236 231);
---on-tertiary-fixed: rgb(0 32 30);
+--on-tertiary-fixed: #14442c;
 --tertiary-fixed-dim: rgb(160 208 203);
 --on-tertiary-fixed-variant: rgb(31 78 75);
 --surface-dim: rgb(218 219 208);
@@ -65,26 +67,20 @@
 --surface-container: rgb(238 239 227);
 --surface-container-high: rgb(232 233 222);
 --surface-container-highest: rgb(226 227 216);">
-<!-- <header class="fixed primary-container">
-    <nav>
-        <h4 class="max">Cartografia Biodiversa</h4>
-    </nav>
-</header> -->
 <nav class="m l left">
   <header>
-    <img class="circle" src="/icon.png">
+    <img class="circle" src="/rsrc/logo.png">
   </header>
 </nav>
 <main class="max">
 <nav class="m l left primary">
-  <header>
-    <img class="circle" src="icon.png">
-  </header>
-  <a>
-    <i>info</i>
-    <span>Sobre</span>
+  <img class="medium no-round no" src="/rsrc/logo.png">
+  <hr>
+  <a href="index.html">
+    <i>travel_explore</i>
+    <span>Mapa</span>
   </a>
-  <a>
+  <a href="gallery.html">
     <i>image</i>
     <span>Galeria</span>
   </a>
@@ -92,8 +88,8 @@
     <i>upload</i>
     <span>Upload</span>
   </a>
-
 </nav>
+
 <div class="no-margin no-padding" id="map"></div>
 </main>
 
