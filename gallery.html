@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UFT-8" />
+    <title>Cartografia Biodiversa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/beercss@3.10.8/dist/cdn/beer.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="light" style="--primary: #14442c;
+--primary-border: #14442c;
+--surface-tint: rgb(76 102 43);
+--on-primary: rgb(255 255 255);
+--primary-container: rgb(205 237 163);
+--on-primary-container: rgb(53 78 22);
+--secondary: #14442c;
+--on-secondary: rgb(255 255 255);
+--secondary-container: rgb(220 231 200);
+--on-secondary-container: rgb(64 74 51);
+--tertiary: rgb(56 102 99);
+--on-tertiary: rgb(255 255 255);
+--tertiary-container: rgb(188 236 231);
+--on-tertiary-container: rgb(31 78 75);
+--error: rgb(186 26 26);
+--on-error: rgb(255 255 255);
+--error-container: rgb(255 218 214);
+--on-error-container: rgb(147 0 10);
+--background: rgb(249 250 239);
+--on-background: #14442c;
+--surface: rgb(249 250 239);
+--on-surface: rgb(26 28 22);
+--surface-variant: rgb(225 228 213);
+--on-surface-variant: rgb(68 72 61);
+--outline: rgb(117 121 108);
+--outline-variant: rgb(197 200 186);
+--shadow: rgb(0 0 0);
+--scrim: #14442c;
+--inverse-surface: rgb(47 49 42);
+--inverse-on-surface: rgb(241 242 230);
+--inverse-primary: rgb(177 209 138);
+--primary-fixed: rgb(205 237 163);
+--on-primary-fixed: #14442c;
+--primary-fixed-dim: rgb(177 209 138);
+--on-primary-fixed-variant: rgb(53 78 22);
+--secondary-fixed: rgb(220 231 200);
+--on-secondary-fixed: #14442c;
+--secondary-fixed-dim: rgb(191 203 173);
+--on-secondary-fixed-variant: rgb(64 74 51);
+--tertiary-fixed: rgb(188 236 231);
+--on-tertiary-fixed: #14442c;
+--tertiary-fixed-dim: rgb(160 208 203);
+--on-tertiary-fixed-variant: rgb(31 78 75);
+--surface-dim: rgb(218 219 208);
+--surface-bright: rgb(249 250 239);
+--surface-container-lowest: rgb(255 255 255);
+--surface-container-low: rgb(243 244 233);
+--surface-container: rgb(238 239 227);
+--surface-container-high: rgb(232 233 222);
+--surface-container-highest: rgb(226 227 216);">
+
+<nav class="m l left">
+  <header>
+    <img class="circle" src="/rsrc/logo.png">
+  </header>
+</nav>
+<main class="max">
+<nav class="m l left primary">
+  <img class="medium no-round no" src="/rsrc/logo.png">
+  <hr>
+  <a href="index.html">
+    <i>travel_explore</i>
+    <span>Mapa</span>
+  </a>
+  <a href="gallery.html">
+    <i>image</i>
+    <span>Galeria</span>
+  </a>
+  <a href="https://forms.gle/Mt2gn8LeYztD315X6">
+    <i>upload</i>
+    <span>Upload</span>
+  </a>
+</nav>
+
+<article class="small-margin large-padding primary">
+    <div class="no-line">
+    <h6 class="bold">Fotografias</h4>
+    <hr class="small">
+    </div>
+        <div class="row scroll">
+            <img class="medium-height" src="/img/photo/img (1).jpeg">
+            <img class="medium-height" src="/img/photo/img (1).jpg">
+            <img class="medium-height" src="/img/photo/img (1).png">
+            <img class="medium-height" src="/img/photo/img (2).jpeg">
+            <img class="medium-height" src="/img/photo/img (2).jpg">
+            <img class="medium-height" src="/img/photo/img (3).jpeg">
+            <img class="medium-height" src="/img/photo/img (4).jpg">
+            <img class="medium-height" src="/img/photo/img (5).jpg">
+            <img class="medium-height" src="/img/photo/img (6).jpg">
+            <img class="medium-height" src="/img/photo/img (7).jpg">
+            <img class="medium-height" src="/img/photo/img (8).jpg">
+            <img class="medium-height" src="/img/photo/img (9).jpg">
+            <img class="medium-height" src="/img/photo/img (10).jpg">
+            <img class="medium-height" src="/img/photo/img (11).jpg">
+            <img class="medium-height" src="/img/photo/img (12).jpg">
+            <img class="medium-height" src="/img/photo/img (13).jpg">
+            <img class="medium-height" src="/img/photo/img (14).jpg">
+            <img class="medium-height" src="/img/photo/img (15).jpg">
+            <img class="medium-height" src="/img/photo/img (16).jpg">
+            <img class="medium-height" src="/img/photo/img (17).jpg">
+            <img class="medium-height" src="/img/photo/img (18).jpg">
+            <img class="medium-height" src="/img/photo/img (19).jpg">
+            <img class="medium-height" src="/img/photo/img (20).jpg">
+            <img class="medium-height" src="/img/photo/img (21).jpg">
+            <img class="medium-height" src="/img/photo/img (22).jpg">
+            <img class="medium-height" src="/img/photo/img (23).jpg">
+            <img class="medium-height" src="/img/photo/img (24).jpg">
+            <img class="medium-height" src="/img/photo/img (25).jpg">
+            <img class="medium-height" src="/img/photo/img (26).jpg">
+            <img class="medium-height" src="/img/photo/img (27).jpg">
+            <img class="medium-height" src="/img/photo/img (28).jpg">
+            <img class="medium-height" src="/img/photo/img (29).jpg">
+            <img class="medium-height" src="/img/photo/img (30).jpg">
+            <img class="medium-height" src="/img/photo/img (31).jpg">
+            <img class="medium-height" src="/img/photo/img (32).jpg">
+            <img class="medium-height" src="/img/photo/img (33).jpg">
+            <img class="medium-height" src="/img/photo/img (34).jpg">
+            <img class="medium-height" src="/img/photo/img (35).jpg">
+            <img class="medium-height" src="/img/photo/img (36).jpg">
+            <img class="medium-height" src="/img/photo/img (37).jpg">
+            <img class="medium-height" src="/img/photo/img (38).jpg">
+            <img class="medium-height" src="/img/photo/img (39).jpg">
+            <img class="medium-height" src="/img/photo/img (40).jpg">
+            <img class="medium-height" src="/img/photo/img (41).jpg">
+            <img class="medium-height" src="/img/photo/img (42).jpg">
+            <img class="medium-height" src="/img/photo/img (43).jpg">
+            <!-- <img class="medium-height" src="/img/photo/img (44).jpg"> -->
+            <img class="medium-height" src="/img/photo/img (45).jpg">
+            <img class="medium-height" src="/img/photo/img (46).jpg">
+            <img class="medium-height" src="/img/photo/img (47).jpg">
+            <img class="medium-height" src="/img/photo/img (48).jpg">
+            <img class="medium-height" src="/img/photo/img (49).jpg">
+        </div>
+</article>
+
+<article class="small-margin large-padding primary">
+    <div class="no-line">
+    <h6 class="bold">Desenhos</h4>
+    <hr class="small">
+    </div>
+        <div class="row scroll">
+            <img class="medium-height" src="/img/drawings/img (1).jpg">
+            <img class="medium-height" src="/img/drawings/img (2).jpg">
+            <img class="medium-height" src="/img/drawings/img (3).jpg">
+            <img class="medium-height" src="/img/drawings/img (4).jpg">
+            <img class="medium-height" src="/img/drawings/img (5).jpg">
+            <img class="medium-height" src="/img/drawings/img (6).jpg">
+            <img class="medium-height" src="/img/drawings/img (7).jpg">
+            <img class="medium-height" src="/img/drawings/img (8).jpg">
+            <img class="medium-height" src="/img/drawings/img (9).jpg">
+            <img class="medium-height" src="/img/drawings/img (10).jpg">
+            <img class="medium-height" src="/img/drawings/img (11).jpg">
+            <img class="medium-height" src="/img/drawings/img (12).jpg">
+            <img class="medium-height" src="/img/drawings/img (13).jpg">
+            <img class="medium-height" src="/img/drawings/img (14).jpg">
+            <img class="medium-height" src="/img/drawings/img (15).jpg">
+            <img class="medium-height" src="/img/drawings/img (16).jpg">
+            <img class="medium-height" src="/img/drawings/img (17).jpg">
+        </div>
+</article>
+
+<article class="small-margin large-padding primary">
+    <div class="no-line">
+    <h6 class="bold">Colagens</h4>
+    <hr class="small">
+    </div>
+        <div class="row scroll">
+            <img class="medium-height" src="/img/desenho-guilhermebuosineto.png">
+        </div>
+</article>
+
+</main>
